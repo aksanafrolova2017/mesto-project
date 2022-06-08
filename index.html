@@ -1,103 +1,183 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Mesto Russia</title>
-</head>
-<body class="body">
+  </head>
+  <body class="body">
     <div class="page">
-       <header class="header">
-         <img src="./blocks/header/__logo/logo.svg" alt="Логотип" class="header__logo"/>
-       </header>
- <main class="main">
-    <section class="profile section-inside">
-        <img src="./images/image.jpg" alt="Фото Жак-Ив Кусто" class="profile__avatar"/>
+      <header class="header">
+        <img
+          src="./blocks/header/__logo/logo.svg"
+          alt="Логотип"
+          class="header__logo"
+        />
+      </header>
+      <main class="main">
+        <section class="profile section-inside">
+          <img
+            src="./images/image.jpg"
+            alt="Фото Жак-Ив Кусто"
+            class="profile__avatar"
+          />
           <div class="profile__info">
-             <h1 class="profile__name">Жак-Ив Кусто</h1>
-             <h2 class="profile__description">Исследователь океана</h2>
-             <button class="profile__edit-button button" type="button" aria-label="Редактировать профиль"></button>
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <h2 class="profile__description">Исследователь океана</h2>
+            <button
+              class="profile__edit-button button"
+              type="button"
+              aria-label="Редактировать профиль"
+            ></button>
           </div>
-          <button class="profile__add-button button" type="button" aria-label="Добавить"></button>
-    </section>      
-    <section class="elements section-inside">
-         <ul class="elements__list">
-             <li class="element">
+          <button
+            class="profile__add-button button"
+            type="button"
+            aria-label="Добавить"
+          ></button>
+        </section>
+        <section class="elements section-inside">
+          <ul class="elements__list">
+            <li class="element">
               <figure class="element__figure">
-                  <img src="./images/kirill-pershin-1088404-unsplash.png" alt="Фото замка" class="element__image"/>
-                  <figcaption class="element__info">
-                      <h2 class="element__text">Карачаевск</h2>
-                      <button class="element__like-button button" type="button" aria-label="Нравится"></button>
-                  </figcaption> 
-              </figure>
-             </li>
-             <li class="element">
-             <figure class="element__figure">
-                 <img src="./images/kirill-pershin-1404681-unsplash.png" alt="Фото гор на закате" class="element__image"/>
-                 <figcaption class="element__info">
-                     <h2 class="element__text">Гора Эльбрус</h2>
-                     <button class="element__like-button button" type="button" aria-label="Нравится"></button>
-                 </figcaption>
-             </figure>
-             </li>
-             <li class="element">
-             <figure class="element__figure">
-                 <img src="./images/kirill-pershin-1556355-unsplash.png" alt="Вершина горы" class="element__image"/>
-                 <figcaption class="element__info">
-                     <h2 class="element__text">Домбай</h2>
-                     <button class="element__like-button button" type="button" aria-label="Нравится"></button>
-                 </figcaption>
-             </figure>    
-             </li>
-             <li class="element">
-             <figure class="element__figure">
-                 <img src="./images/kirill-pershin-1404681-unsplash.png" alt="Фото гор на закате" class="element__image"/>
-                 <figcaption class="element__info">
-                     <h2 class="element__text">Гора Эльбрус</h2>
-                     <button class="element__like-button button" type="button" arial-label="Нравится"></button>
-                 </figcaption>
-             </figure>    
-             </li> 
-             <li class="element">
-             <figure class="element__figure">
-                  <img src="./images/kirill-pershin-1556355-unsplash.png" alt="Вершина горы" class="element__image"/>
-                  <figcaption class="element__info">
-                      <h2 class="element__text">Домбай</h2>
-                      <button class="element__like-button button" type="button" arial-label="Нравится"></button>
-                  </figcaption>
-             </figure>    
-             </li>
-             <li class="element">
-             <figure class="element__figure">
-                   <img src="./images/kirill-pershin-1088404-unsplash.png" alt="Фото замка" class="element__image"/>
-                   <figcaption class="element__info">
-                      <h2 class="element__text">Карачаево-Черкесская Республика</h2>
-                      <button class="element__like-button button" type="button" arial-label="Нравится"></button>
+                <img
+                  src="./images/kirill-pershin-1088404-unsplash.png"
+                  alt="Фото замка"
+                  class="element__image"
+                />
+                <figcaption class="element__info">
+                  <h2 class="element__text">Карачаевск</h2>
+                  <button
+                    class="element__like-button button"
+                    type="button"
+                    aria-label="Нравится"
+                  ></button>
                 </figcaption>
-             </figure>
-             </li>
-         </ul>
-    </section>
- </main>
-    <footer class="footer">
-        <p class="footer__text">&copy;2020. Mesto Russia</p>
-    </footer>
+              </figure>
+            </li>
+            <li class="element">
+              <figure class="element__figure">
+                <img
+                  src="./images/kirill-pershin-1404681-unsplash.png"
+                  alt="Фото гор на закате"
+                  class="element__image"
+                />
+                <figcaption class="element__info">
+                  <h2 class="element__text">Гора Эльбрус</h2>
+                  <button
+                    class="element__like-button button"
+                    type="button"
+                    aria-label="Нравится"
+                  ></button>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="element">
+              <figure class="element__figure">
+                <img
+                  src="./images/kirill-pershin-1556355-unsplash.png"
+                  alt="Вершина горы"
+                  class="element__image"
+                />
+                <figcaption class="element__info">
+                  <h2 class="element__text">Домбай</h2>
+                  <button
+                    class="element__like-button button"
+                    type="button"
+                    aria-label="Нравится"
+                  ></button>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="element">
+              <figure class="element__figure">
+                <img
+                  src="./images/kirill-pershin-1404681-unsplash.png"
+                  alt="Фото гор на закате"
+                  class="element__image"
+                />
+                <figcaption class="element__info">
+                  <h2 class="element__text">Гора Эльбрус</h2>
+                  <button
+                    class="element__like-button button"
+                    type="button"
+                    arial-label="Нравится"
+                  ></button>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="element">
+              <figure class="element__figure">
+                <img
+                  src="./images/kirill-pershin-1556355-unsplash.png"
+                  alt="Вершина горы"
+                  class="element__image"
+                />
+                <figcaption class="element__info">
+                  <h2 class="element__text">Домбай</h2>
+                  <button
+                    class="element__like-button button"
+                    type="button"
+                    arial-label="Нравится"
+                  ></button>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="element">
+              <figure class="element__figure">
+                <img
+                  src="./images/kirill-pershin-1088404-unsplash.png"
+                  alt="Фото замка"
+                  class="element__image"
+                />
+                <figcaption class="element__info">
+                  <h2 class="element__text">Карачаево-Черкесская Республика</h2>
+                  <button
+                    class="element__like-button button element__like-button_active"
+                    type="button"
+                    arial-label="Нравится"
+                  ></button>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__text">&copy; 2020. Mesto Russia</p>
+      </footer>
     </div>
-        <div class="popup popup_opened">
-           <div class="popup__container">
-              <button class="popup__close-button button" type="button" aria-label="Закрыть модальное окно"></button>
-              <form class="popup__form " name="popup-edit">
-                <fieldset class="popup__fieldset">
-                  <legend class="popup__title">Редактировать профиль</legend>
-                  <input class="popup__input" type="text" name="name" placeholder="Жак-Ив Кусто" />
-                  <input class="popup__input" type="text" name="description" placeholder="Исследователь океана" />
-              <button class="popup__save-button button" type="submit">Сохранить</button>
-                 </fieldset>
-              </form>
-           </div>
-        </div>
- </body>
- </html>   
+    <div class="popup popup_opened">
+      <div class="popup__container">
+        <button
+          class="popup__close-button button"
+          type="button"
+          aria-label="Закрыть модальное окно"
+        ></button>
+        <form class="popup__form" name="popup-edit">
+          <fieldset class="popup__fieldset">
+            <legend class="popup__title">Редактировать профиль</legend>
+            <input
+              class="popup__input"
+              type="text"
+              name="name"
+              value="Жак-Ив Кусто"
+            />
+            <input
+              class="popup__input"
+              type="text"
+              name="description"
+              value="Исследователь океана"
+            />
+          </fieldset>
+
+          <button class="popup__save-button button" type="submit">
+            Сохранить
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

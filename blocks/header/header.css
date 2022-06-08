@@ -1,15 +1,17 @@
 .header {
-    display: flex;
-    padding-top: 45px;
-    padding-bottom: 41px;
-    width: 100%;
-    box-sizing: border-box;
-    border-bottom: solid 1px rgb(84, 84, 84, 0.7);
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 41px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-bottom: solid 1px rgb(84, 84, 84, 0.7);
 }
 
-@media screen and (max-width:320px) {
-    .header {
-        padding-top: 28px;
-        padding-bottom: 31.6px;
-    }
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 28px;
+    padding-bottom: 31.6px;
+    margin: 0;
+  }
 }
