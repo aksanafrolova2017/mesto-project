@@ -1,0 +1,19 @@
+@media screen and (max-width:1000px) {
+    .section-inside {
+        margin: 0 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section-inside {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .section-inside {
+        max-width: 320px;
+        margin: 0 19px;
+    }
+}

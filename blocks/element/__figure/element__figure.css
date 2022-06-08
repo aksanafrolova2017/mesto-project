@@ -1,0 +1,8 @@
+.element__figure {
+    margin: 0;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-line-clamp: ellipsis;
+    text-overflow: ellipsis;
+}
